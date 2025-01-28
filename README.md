@@ -391,4 +391,4 @@ Devido à sua simplicidade, flexibilidade, robustez e facilidade de uso, tornand
 
 ---
 
-# /01/2024 - BANCO DE DADOS FUNDAMENTOS - IFRS - DAY 3
+# 29/01/2024 - BANCO DE DADOS FUNDAMENTOS - IFRS - DAY 
