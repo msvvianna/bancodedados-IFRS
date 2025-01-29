@@ -1,32 +1,50 @@
-# 27/01/2024 - BANCO DE DADOS FUNDAMENTOS - IFRS - DAY 1
+# 30/01/2024 - BANCO DE DADOS FUNDAMENTOS - IFRS - DAY 1
 
-# Resumo: Introdução a Bancos de Dados e Sistemas Gerenciadores
+# 1 - Conceitos fundamentais
 
-## Importância dos Bancos de Dados
-- Essenciais em diversos setores, armazenando e permitindo a manipulação e consulta de dados.
-- Exemplo: atendimento ao cliente e sistemas de gerenciamento.
+# 1.1 Introdução 
 
-## Dados, Informação e Conhecimento
-- **Dado**: elemento bruto, sem significado imediato.
-- **Informação**: dado trabalhado com significado.
-- **Conhecimento**: informações organizadas e compreendidas.
+# 1.2 História 
+- 
+- Surgiram na década de 1960 para resolver limitações no armazenamento de dados.
+- IBM desenvolveu o modelo relacional e a linguagem SQL (1970).
+- Evolução para atender às necessidades modernas de gerenciamento.
 
-## Definição de Banco de Dados
-- Conjunto organizado de dados armazenados eletronicamente (textos, imagens, etc.).
-- Gerenciado como uma única entidade, mas acessível individualmente.
+# 1.3 Usuários de Bancos de Dados
 
-## Sistema Gerenciador de Banco de Dados (SGBD)
-- Intermediário entre usuários/aplicações e dados.
-- Realiza operações de inserção, consulta, alteração e exclusão.
-- Garante integridade, segurança e eficiência no acesso.
+1. **DBA (Administrador)**: gerencia segurança e desempenho.
+2. **Analista de Bancos de Dados**: projeta e estrutura os dados.
+3. **Usuários Finais**: acessam e manipulam dados.
+4. **Programadores**: implementam transações e soluções.
 
-### Estrutura de Interação
-1. Usuário: realiza solicitações.
-2. Aplicação: transmite as solicitações ao SGBD.
-3. SGBD: gerencia os dados.
-4. Dados Físicos: armazenados em disco rígido.
+# 1.4 Níveis de Abstração
+1. **Nível Externo**: visões específicas para diferentes usuários.
+2. **Nível Conceitual**: estrutura lógica geral.
+3. **Nível Interno**: organização física.
 
----
+![img.png](img.png)
+
+# 1.5 SGBD - Sistema Gerenciadores de Bancos de dados
+
+# 1.6 Video complementar 1: Conceitos fundamentais sobre banco de dados
+
+# 1.7 Video complementar 2: Conceitos fundamentais sobre banco de dados
+
+# 1.8 Teste seus conhecimentos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # O que é uma Entidade em Banco de Dados?
 
@@ -99,39 +117,18 @@ Por exemplo:
 
 ---
 
-# Resumo: Características de um SGBD
-1. **Autocontenção**: armazena dados e metadados.
-2. **Independência de Dados**: dados independem das aplicações.
-3. **Abstração**: oculta detalhes de armazenamento.
-4. **Controle de Transações**: garante integridade.
-5. **Controle de Concorrência**: gerencia acessos simultâneos.
 
-### Exemplos de SGBDs
-- Comerciais: Oracle, MySQL, PostgreSQL, SQL Server, Microsoft Access.
 
 ---
 
-# Resumo: História e Usuários de Bancos de Dados
 
-## História
-- Surgiram na década de 1960 para resolver limitações no armazenamento de dados.
-- IBM desenvolveu o modelo relacional e a linguagem SQL (1970).
-- Evolução para atender às necessidades modernas de gerenciamento.
 
-## Usuários de Bancos de Dados
-1. **DBA (Administrador)**: gerencia segurança e desempenho.
-2. **Analista de Bancos de Dados**: projeta e estrutura os dados.
-3. **Usuários Finais**: acessam e manipulam dados.
-4. **Programadores**: implementam transações e soluções.
+
 
 ---
 
-# Resumo: Níveis de Abstração e Benefícios do SGBD
+# 1.4 Resumo: Níveis de Abstração e Benefícios do SGBD
 
-## Níveis de Abstração
-1. **Nível Externo**: visões específicas para diferentes usuários.
-2. **Nível Conceitual**: estrutura lógica geral.
-3. **Nível Interno**: organização física.
 
 ## Benefícios
 - Controle de redundância.
@@ -210,9 +207,7 @@ Os bancos de dados e os SGBDs são fundamentais para gerenciar informações de 
 
 ---
 
-# 28/01/2024 - BANCO DE DADOS FUNDAMENTOS - IFRS - DAY 2
-
-# Modelos de Dados e Modelagem de Bancos de Dados
+# 2 - Modelos de Dados e Modelagem de Bancos de Dados
 
 ## 1. Modelos de Dados
 Os Sistemas Gerenciadores de Bancos de Dados (SGBDs) surgiram para resolver limitações dos sistemas baseados em arquivos. Eles adotam diferentes modelos de dados, que determinam como as informações são organizadas, acessadas e manipuladas. Os principais modelos incluem:
